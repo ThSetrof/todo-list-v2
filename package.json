@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "Tommy G. <thsetrof@tuta.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
